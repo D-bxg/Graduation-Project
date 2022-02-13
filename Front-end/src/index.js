@@ -1,6 +1,14 @@
+/*
+ * @Author: D_bxg
+ * @Date: 2022-01-22 10:38:57
+ * @LastEditors: D_bxg
+ * @LastEditTime: 2022-01-29 12:22:03
+ * @Description: file content
+ * @FilePath: \applicatione:\Code\Project\Graduation-Project\Front-end\src\index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.scss'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
