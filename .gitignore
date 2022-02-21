@@ -1,7 +1,9 @@
-# Front-end
 # dependencies
-Front-end/node_modules
+**/node_modules
 
+##############
+# Front-end  #
+##############
 # testing
 Front-end/coverage
 
@@ -18,3 +20,96 @@ Front-end/.env.production.local
 Front-end/npm-debug.log*
 Front-end/yarn-debug.log*
 Front-end/yarn-error.log*
+
+############
+# Mid-end  #
+############
+# testing
+Mid-end/coverage
+
+# production
+Mid-end/build
+
+# misc
+Mid-end/.DS_Store
+Mid-end/.env.local
+Mid-end/.env.development.local
+Mid-end/.env.test.local
+Mid-end/.env.production.local
+
+Mid-end/npm-debug.log*
+Mid-end/yarn-debug.log*
+Mid-end/yarn-error.log*
+# roadhog-api-doc ignore
+Mid-end/src/utils/request-temp.js
+Mid-end/_roadhog-api-doc
+
+# production
+Mid-end/dist
+Mid-end/.vscode
+
+# misc
+Mid-end/.DS_Store
+Mid-end/npm-debug.log*
+Mid-end/yarn-error.log
+
+Mid-end/coverage
+Mid-end/.idea
+Mid-end/yarn.lock
+Mid-end/package-lock.json
+Mid-end/*bak
+Mid-end/.vscode
+
+# visual studio code
+Mid-end/.history
+Mid-end/*.log
+Mid-end/functions/*
+Mid-end/.temp/**
+
+# umi
+Mid-end/.umi
+Mid-end/.umi-production
+
+# screenshot
+Mid-end/screenshot
+Mid-end/.firebase
+Mid-end/.eslintcache
+
+Mid-end/build
+
+############
+# Back-end #
+############
+Back-end/graduation-project/HELP.md
+Back-end/graduation-project/target/
+Back-end/graduation-project/!.mvn/wrapper/maven-wrapper.jar
+Back-end/graduation-project/!**/src/main/**/target/
+Back-end/graduation-project/!**/src/test/**/target/
+
+### STS ###
+Back-end/graduation-project/.apt_generated
+Back-end/graduation-project/.classpath
+Back-end/graduation-project/.factorypath
+Back-end/graduation-project/.project
+Back-end/graduation-project/.settings
+Back-end/graduation-project/.springBeans
+Back-end/graduation-project/.sts4-cache
+
+### IntelliJ IDEA ###
+Back-end/graduation-project/.idea
+Back-end/graduation-project/*.iws
+Back-end/graduation-project/*.iml
+Back-end/graduation-project/*.ipr
+
+### NetBeans ###
+Back-end/graduation-project/nbproject/private/
+Back-end/graduation-project/nbbuild/
+Back-end/graduation-project/dist/
+Back-end/graduation-project/nbdist/
+Back-end/graduation-project/.nb-gradle/
+Back-end/graduation-project/build/
+Back-end/graduation-project/!**/src/main/**/build/
+Back-end/graduation-project/!**/src/test/**/build/
+
+### VS Code ###
+Back-end/graduation-project/.vscode/

@@ -1,0 +1,34 @@
+.Header {
+  @include flex(stretch, space-between);
+  background-color: $header-color;
+  height: 45px;
+  min-width: 100%;
+  padding: 0 20px;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  transition: background-color;
+  .Logo {
+    @include flex(center, center);
+    width: 45px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .Function {
+    width: 80%;
+    @include flex(stretch, flex-end);
+    .Search {
+      width: 5%;
+      font-size: 25px;
+      @include flex(center, center);
+    }
+    .CartList {
+      width: 5%;
+      font-size: 25px;
+
+      @include flex(center, center);
+    }
+  }
+}
