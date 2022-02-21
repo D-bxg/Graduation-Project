@@ -2,14 +2,10 @@
  * @Author: D_bxg
  * @Date: 2022-01-21 09:59:58
  * @LastEditors: D_bxg
- * @LastEditTime: 2022-02-13 22:53:11
+ * @LastEditTime: 2022-02-21 22:49:22
  * @Description: file content
  * @FilePath: \applicatione:\Code\Project\Graduation-Project\README.md
 -->
-# 目录
-
-[TOC]
-
 # 启动步骤
 
 1. 把[SQL](/SQL)里的文件导入MySQL
