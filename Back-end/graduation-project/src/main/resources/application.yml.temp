@@ -2,17 +2,9 @@ server:
     port: 8080
     servlet: 
         context-path: 
-
-#SpringBoot的总配置文件
-
 spring:
-    profiles:
-        active:
-#激活开发环境
-#spring.profiles.active=dev
-
-#激活测试环境
-#spring.profiles.active=test
-
-#激活生产环境
-#spring.profiles.active=product
+    datasource:
+        url: jdbc:mysql://localhost:3306/graduation_project
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver

@@ -1,0 +1,41 @@
+type Query {
+  events: [Event!]
+  customer: [Customer]
+}
+
+type Mutation {
+  createEvent(eventInput: EventInput!): Event!
+  createCustomer(customerInput: CustomerInput!): Customer
+  loginCustomer(customerName:String!, password: String!): Token
+}
+
+type Event {
+  id: ID!
+  title: String!
+}
+input EventInput {
+  title: String!
+}
+
+type Token {
+  token: String
+}
+
+
+type Customer {
+  id: ID!
+  email: String
+  password: String
+  loginState: Int
+  customerName: String
+  address: String
+  phone: String
+}
+input CustomerInput {
+  email: String
+  password: String
+  loginState: Int
+  customerName: String
+  address: String
+  phone: String
+}

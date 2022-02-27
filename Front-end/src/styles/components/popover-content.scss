@@ -1,0 +1,7 @@
+.popover-content{
+      @include flex(stretch, space-between);
+      flex-direction: column;
+      &__button{
+        width: 100%;
+      }
+}

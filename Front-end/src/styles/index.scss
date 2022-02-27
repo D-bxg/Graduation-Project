@@ -1,8 +1,13 @@
+@import '~antd/dist/antd.css';
+
 @import "./variables";
 @import "./mixins";
 @import "./base";
 
 @import "./components/header";
+@import "./components/dbox";
+@import "./components/accounts";
+@import "./components/popover-content";
 // @import "./components/footer";
 // @import "./components/hero-slider";
 // @import "./components/button";

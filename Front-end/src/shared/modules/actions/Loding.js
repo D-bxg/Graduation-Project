@@ -1,0 +1,1 @@
+export const changeLoding = data=>({type:'changeLoding',data})

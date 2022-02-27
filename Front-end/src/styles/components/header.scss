@@ -1,4 +1,4 @@
-.Header {
+.header {
   @include flex(stretch, space-between);
   background-color: $header-color;
   height: 45px;
@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   transition: background-color;
-  .Logo {
+  .logo {
     @include flex(center, center);
     width: 45px;
     img {
@@ -16,19 +16,20 @@
       height: auto;
     }
   }
-  .Function {
+  .function {
     width: 80%;
     @include flex(stretch, flex-end);
-    .Search {
+    .function__item {
       width: 5%;
       font-size: 25px;
       @include flex(center, center);
     }
-    .CartList {
-      width: 5%;
-      font-size: 25px;
-
-      @include flex(center, center);
+    .function__item-icon{
+        color: $txt-second-color;
+        transition:all 0.3s;
+    }
+    .function__item-icon:hover{
+        color: $txt-white;
     }
   }
 }

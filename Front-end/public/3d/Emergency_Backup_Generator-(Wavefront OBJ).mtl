@@ -1,0 +1,18 @@
+# Blender MTL File: 'Emergency Backup Generator.blend'
+# Material Count: 1
+
+newmtl Emergency_Backup_Generator
+Ns 200.000000
+
+Ni 1.000000
+d 1.000000
+illum 2
+
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+
+map_Kd \Emergency Backup Generator_Default_nmap_Blender.jpg
+map_Bump \Emergency Backup Generator_Default_nmap_Blender.jpg
+map_Ks \Emergency_Backup_Generator_Default_rough.jpg
